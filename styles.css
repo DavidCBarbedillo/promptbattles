@@ -1,0 +1,91 @@
+
+body, h1, h2, p, address, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+.centered-image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%; 
+    height: 90%;
+    width: 90%;
+}
+
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: black;
+    /* border: 2px solid #0078d4;  */
+    border: 2px solid silver; 
+    border-radius: 10px; 
+    text-align: center; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 16px;
+}
+
+a {
+    color: #0078d4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.centered-video {
+    display: block;
+    margin: 0 auto;
+    width: 100%; 
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #ddd;
+    color: white;
+}
+
+
+/* Media query for responsiveness */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
